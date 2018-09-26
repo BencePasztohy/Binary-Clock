@@ -1,17 +1,15 @@
-@charset: utf-8;
-
-table {
-	border: 1px solid black;
-	border-radius: 5px;
-	background: #e0e0e0;
+table tr,
+td {
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 40px;
+    height: 40px;
 }
-table tr, td {
-	border: 1px solid grey;
-	border-radius: 5px;
-	border-collapse: collapse;
-	width: 40px;
-	height: 40px;
-	background: white;
-	color: red;
-	text-align: center;
+td {
+    background: #e0e0e0;
+    will-change: #5b87ff;
+}
+.fill {
+    background: #5b87ff;
 }
